@@ -1,0 +1,14 @@
+@import "./variables.module";
+
+.cover {
+  width: 100%;
+  height: calc(30vh - 95px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  filter: brightness(75%);
+  position: fixed;
+  z-index: -2;
+  margin-top: -112px;
+}

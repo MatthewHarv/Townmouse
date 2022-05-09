@@ -1,0 +1,40 @@
+@import "./variables.module";
+.cover {
+  width: 100%;
+  height: calc(100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  filter: brightness(75%);
+  position: fixed;
+  z-index: -2;
+  margin-top: -112px;
+}
+
+.title,
+.lead {
+  width: 80%;
+  margin: auto;
+  font-family: ProxReg;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.lead {
+  font-size: $text;
+  line-height: 1.6rem;
+}
+
+.title {
+  font-weight: 500;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: $title;
+}
+.test {
+  font-size: $text;
+  color: $colorred;
+}
+.lead{
+  padding-top: 2rem;
+}

@@ -1,0 +1,36 @@
+@import "./variables.module";
+.headerlogo {
+  width: 100px;
+  margin-left: 4px;
+}
+
+.mainnav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.mainnav ul {
+  display: flex;
+}
+.mainnav li {
+  padding: 1rem 1.5rem;
+}
+.mainnav a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+}
+.mainnav a:hover {
+  border-color: #ccc;
+}
+.mainnav a.current {
+  border-color: #ffbc00;
+}
+
+.headerlogo {
+  width: 6rem;
+  padding-left: 2rem;
+}

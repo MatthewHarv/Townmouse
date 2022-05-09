@@ -1,0 +1,119 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "ProxReg";
+  src: local("ProxReg"), url(../fonts/zProxReg.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ProxBold";
+  src: local("ProxBold"), url(../fonts/zProxBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ProxLight";
+  src: local("ProxLight"), url(../fonts/zProxLight.otf) format("oof");
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+@font-face {
+  font-family: "ProxReg";
+  src: local("ProxReg"), url(../fonts/zProxReg.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ProxBold";
+  src: local("ProxBold"), url(../fonts/zProxBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ProxLight";
+  src: local("ProxLight"), url(../fonts/zProxLight.otf) format("oof");
+}
+ul {
+  list-style: none;
+}
