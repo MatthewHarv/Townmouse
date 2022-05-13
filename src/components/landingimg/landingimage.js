@@ -24,7 +24,15 @@ export default function Cover() {
 
   return (
     <div>
-      <BgImage image={pluginImage} className={style.cover}></BgImage>
+      <BgImage image={pluginImage} className={style.cover}>
+        <div>
+          <h1 className={style.landingHeader}>Best Café In Pukehohe</h1>
+          <p className={style.landingDescription}>
+            Amazing Allpress coffee, great a la carte menu, fresh and vibrant
+            cabinet food.
+          </p>
+        </div>
+      </BgImage>
     </div>
   )
 }

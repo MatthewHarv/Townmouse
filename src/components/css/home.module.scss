@@ -5,8 +5,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  filter: brightness(75%);
+ // filter: brightness(65%);
   position: fixed;
   z-index: -2;
   margin-top: -112px;
@@ -37,4 +41,68 @@
 }
 .lead{
   padding-top: 2rem;
+}
+
+.landingHeader ,.landingDescription{
+      text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-align: center;
+  max-width: 1000px;
+  width:80%;
+  margin: auto;
+
+  
+}
+.landingDescription{
+color:white;
+    font-size: 3rem;
+    @media (max-width: 769px) {
+    
+        display: none;
+      }
+}
+
+.landingHeader {
+    color: white;
+  font-size: 5rem;
+  display: block;
+  margin-top: 30vh;
+
+}
+
+.aboutSummary{
+  background-color: #0B1315;
+}
+
+.storyContainer{
+ padding-top: 100px;
+ text-align: center;
+ color:white;
+}
+.contentAbout{
+  width:500px;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 1.8rem;
+  font-size: 18px;
+}
+
+.leadingHeader{
+  font-size:1.3rem;
+
+}
+.leadingTopic{
+  margin-top: 30px;
+  font-size: 2.3rem;
+}
+
+.consumablesContainer{
+    margin-top: 50px;
+  display:flex;
+    justify-content:space-evenly;
+}
+.foodContainer, .drinkContainer{
+
+  color:white;
+  text-align: center;
+  width:80%;
 }
