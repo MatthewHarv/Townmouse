@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as style from "../components/css/home.module.scss"
 import Landingimage from "../components/landingimg/landingimage"
+import { StaticImage } from "gatsby-plugin-image"
+
 import { Link } from "gatsby"
 
 const IndexPage = () => (
@@ -32,6 +34,14 @@ const IndexPage = () => (
             Being on a working wharf we can truly say that our seafood is fresh
             off the boat.
           </p>
+        </div>
+        <div className={style.imageContainer}>
+          <StaticImage
+            className={style.coffee}
+            src="../images/coffee.jpg"
+            alt="Coffee"
+            formats={["AUTO", "WEBP"]}
+          />
         </div>
         <div className={style.drinkContainer}>
           <h1 className={style.leadingHeader}>Our Choice</h1>

@@ -8,7 +8,7 @@ export default function Cover() {
   const { placeholderImage123 } = useStaticQuery(
     graphql`
       query {
-        placeholderImage123: file(relativePath: { eq: "townmouse.png" }) {
+        placeholderImage123: file(relativePath: { eq: "townmouse.jpg" }) {
           childImageSharp {
             gatsbyImageData(
               quality: 100

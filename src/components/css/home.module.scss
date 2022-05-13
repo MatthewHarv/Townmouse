@@ -71,10 +71,12 @@ color:white;
 
 .aboutSummary{
   background-color: #0B1315;
+  padding-top:100px;
+  padding-bottom: 80px;
 }
 
 .storyContainer{
- padding-top: 100px;
+
  text-align: center;
  color:white;
 }
@@ -91,18 +93,35 @@ color:white;
 
 }
 .leadingTopic{
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 2.3rem;
 }
 
 .consumablesContainer{
+  margin: auto;
     margin-top: 50px;
   display:flex;
     justify-content:space-evenly;
+    max-width:1200px;
+    
 }
 .foodContainer, .drinkContainer{
 
   color:white;
   text-align: center;
   width:80%;
+}
+.imageContainer{
+  text-align: center;
+    width: 60%;
+}
+.content{
+  width:60%;
+  margin: auto;
+  line-height: 1.8rem;
+    font-size: 18px;
+}
+
+.coffee{
+  padding:1px;
 }
