@@ -65,7 +65,7 @@ caption {
 html,body {
   max-width: 100%;
   overflow: -moz-scrollbars-vertical;
-  overflow-y: scroll;
+
   overflow-x: hidden;
 }
 
@@ -100,10 +100,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-html {
-  overflow: -moz-scrollbars-vertical;
-  overflow-y: scroll;
-}
+
 @font-face {
   font-family: "ProxReg";
   src: local("ProxReg"), url(../fonts/zProxReg.ttf) format("truetype");
