@@ -13,25 +13,29 @@
   margin-top: -112px;
 }
 
-
-.aboutContainer{
-  background-color:#13242B ;
+.aboutContainer {
+  background-color: #13242b;
   padding-top: 80px;
   padding-bottom: 80px;
   min-height: 60vh;
 }
-.title{
-  color:white;
+.title {
+  color: $themecolour;
   font-size: 2rem;
   text-align: center;
   padding-bottom: 2rem;
+  font-family: Poppinsbold;
+  font-size: $title;
 }
 
-.content{
+.content {
   margin: auto;
-  color:white;
+  color: white;
   text-align: center;
   width: 80%;
   max-width: 1000px;
-  padding-bottom:30px;
+  padding-bottom: 30px;
+  font-family: Poppinsreg;
+  font-size: $text;
+  line-height: 2.5rem;
 }

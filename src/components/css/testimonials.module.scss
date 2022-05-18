@@ -1,34 +1,36 @@
 @import "./variables.module";
-.background{
+.background {
   //background-color: #13242B;
-  background-color: #13252B;
+  background-color: #13252b;
   padding-top: 100px;
-    padding-bottom: 180px;
+  padding-bottom: 180px;
 }
-.container{
+.container {
   text-align: center;
-max-width: 1000px;   
-margin: auto; 
-width:80%;
-
+  max-width: 1000px;
+  margin: auto;
+  width: 80%;
 }
 
-
-.testimonialsHeader{
-  color:white;
-  font-size: 40px;
+.testimonialsHeader {
+  color: white;
+  font-size: $title;
+  font-family: Poppinsbold;
 }
-.name{
-  color:$themecolour;
-  font-size: 28px;
+.name {
+  color: $themecolour;
+  font-size: $titlesecondary;
   padding-bottom: 25px;
+  font-family: Poppinsreg;
 }
 
-.description{
-  color:white;
-    font-size: 18px;
+.description {
+  color: white;
+  font-size: $text;
+  font-family: Poppinsreg;
+  line-height: 2.5rem;
 }
 
-.contentContainer{
-  padding-top:50px;
+.contentContainer {
+  padding-top: 50px;
 }

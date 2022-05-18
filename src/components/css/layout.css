@@ -69,18 +69,9 @@ html,body {
   overflow-x: hidden;
 }
 
-@font-face {
-  font-family: "ProxReg";
-  src: local("ProxReg"), url(../fonts/zProxReg.ttf) format("truetype");
-}
-@font-face {
-  font-family: "ProxBold";
-  src: local("ProxBold"), url(../fonts/zProxBold.ttf) format("truetype");
-}
-@font-face {
-  font-family: "ProxLight";
-  src: local("ProxLight"), url(../fonts/zProxLight.otf) format("oof");
-}
+
+
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
@@ -102,16 +93,16 @@ Extra (xl) large devices (large desktops, 1200px and up)
 =============*/
 
 @font-face {
-  font-family: "ProxReg";
-  src: local("ProxReg"), url(../fonts/zProxReg.ttf) format("truetype");
+  font-family: "PoppinsReg";
+  src: local("PoppinsReg"), url(../../font/Poppins-Regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: "ProxBold";
-  src: local("ProxBold"), url(../fonts/zProxBold.ttf) format("truetype");
+  font-family: "PoppinsBold";
+  src: local("PoppinsBold"), url(../../font/Poppins-Bold.ttf) format("truetype");
 }
 @font-face {
-  font-family: "ProxLight";
-  src: local("ProxLight"), url(../fonts/zProxLight.otf) format("oof");
+  font-family: "Poppinsitalic";
+  src: local("Poppinsitalic"), url(../../font/Poppins-Italic.ttf) format("truetype");
 }
 ul {
   list-style: none;

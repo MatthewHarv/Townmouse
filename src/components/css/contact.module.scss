@@ -1,9 +1,7 @@
 @import "./variables.module";
 
-
 .header {
   color: black;
-
 }
 
 .outContact {
@@ -17,15 +15,12 @@
 
   justify-content: center;
   align-items: center;
-
-
 }
 
 .contactform {
   opacity: 0;
-  background-color: #13242B;
+  background-color: #13242b;
   color: white;
-
 
   width: 80%;
 
@@ -36,20 +31,17 @@
   }
 
   @media (max-width: 576px) {
-
     width: 100%;
-
   }
 
-  max-width:1000px;
+  max-width: 1000px;
   display: grid;
-  grid-template-columns:2fr 2fr;
-  margin:auto;
+  grid-template-columns: 2fr 2fr;
+  margin: auto;
   margin-top: 30vh;
   min-height: 500px;
   border-radius: 5px;
 }
-
 
 .input,
 .inputMessage {
@@ -65,12 +57,10 @@
 
   @media (max-width: 768px) {
     width: 90%;
-
   }
 }
 
 .inputMessage {
-
   height: 8rem;
   resize: none;
 }
@@ -78,10 +68,10 @@
 .input::placeholder,
 .inputMessage::placeholder {
   color: lightgray;
-  font-size: 20px;
   font-family: Arial;
+  font-size: $text;
+  font-family: Poppinsreg;
 }
-
 
 .inputButton:hover {
   background-color: lightgrey;
@@ -99,36 +89,32 @@
   display: block;
 }
 
-
 label {
   width: 100%;
-
 }
 
 .contactTitle {
   text-align: center;
   margin-bottom: 20px;
   color: $themecolour;
-  font-size: 3rem;
+  font-size: $title;
   padding-top: 40px;
+  font-family: Poppinsbold;
 }
 
-
 .infoDescription {
+  font-size: $text;
+  font-family: Poppinsreg;
   text-align: center;
   font-size: 1.3rem;
   padding-top: 2rem;
   padding: 10px;
-
 }
 
 .formButton {
-
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 4rem;
-
-
 }
 
 .inputButton {
@@ -137,7 +123,8 @@ label {
   width: 100px;
   background-color: $themecolour;
   border-radius: 12px;
-  font-size: 1.2rem;
+  font-size: $text;
+  font-family: Poppinsreg;
 }
 
 .fadein {

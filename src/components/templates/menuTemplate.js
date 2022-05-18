@@ -11,7 +11,7 @@ export default class menuTemplate extends Component {
             <div className={style.menuContainer}>
               {this.props.fooddata.map(link => {
                 return (
-                  <div key={link.id} className={style.id}>
+                  <div key={link.id}>
                     <h3 className={style.item}>{link.item}</h3>
                     <p className={style.description}>{link.description}</p>
                     <p className={style.price}>{link.price}</p>
@@ -26,7 +26,7 @@ export default class menuTemplate extends Component {
             <div className={style.menuContainer}>
               {this.props.coffeedata.map(link => {
                 return (
-                  <div key={link.id} className={style.id}>
+                  <div key={link.id}>
                     <h3 className={style.item}>{link.item}</h3>
                     <p className={style.price}>{link.price}</p>
                   </div>
@@ -39,7 +39,7 @@ export default class menuTemplate extends Component {
             <div className={style.menuContainer}>
               {this.props.teadata.map(link => {
                 return (
-                  <div key={link.id} className={style.id}>
+                  <div key={link.id}>
                     <h3 className={style.item}>{link.item}</h3>
                     <p className={style.price}>{link.price}</p>
                   </div>
@@ -52,7 +52,7 @@ export default class menuTemplate extends Component {
             <div className={style.menuContainer}>
               {this.props.juicedata.map(link => {
                 return (
-                  <div key={link.id} className={style.id}>
+                  <div key={link.id}>
                     <h3 className={style.item}>{link.item}</h3>
                     <p className={style.price}>{link.price}</p>
                   </div>

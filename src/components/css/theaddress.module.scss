@@ -6,26 +6,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+
   position: fixed;
   z-index: -2;
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.landingHeader{
-  color:$themecolour;
-  font-size: 3rem;
+.landingHeader {
+  display: block;
+  color: $themecolour;
+  font-size: $title;
+  font-family: Poppinsbold;
   text-align: center;
   padding-bottom: 80px;
+  margin: auto;
 }
 
-.landingDescription{
- 
-  color:white;
-  font-size: 2rem;
+.landingDescription {
+  color: white;
+  font-size: $text;
+  font-family: Poppinsreg;
   text-align: center;
 }

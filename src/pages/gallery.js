@@ -223,7 +223,7 @@ const About = () => (
     <Seo title="Gallery" />
     <Landingcover></Landingcover>
     <div className={style.container}>
-      <h1 className={style.title}>Check out our products!</h1>
+      <h1 className={style.title}>Check out these beauties!</h1>
       <GalleryTemplate data={data}></GalleryTemplate>
     </div>
   </Layout>
