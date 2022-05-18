@@ -1,0 +1,17 @@
+@import "./variables.module";
+
+
+.button{
+  color:white;
+  margin-top:30px;
+  background-color: inherit;
+  padding:13px 30px;
+  border: 1px solid $themecolour;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.button:hover{
+  background-color:lightgray;
+  color:black;
+cursor: pointer;
+}

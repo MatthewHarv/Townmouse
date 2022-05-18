@@ -9,7 +9,7 @@ export default class about extends Component {
       <Layout>
         <Seo title="About" />
         <Landingcover></Landingcover>
-        <h1>Hi about page</h1>
+        <h1>Hi about page </h1>
       </Layout>
     )
   }

@@ -5,10 +5,13 @@ import * as style from "../components/css/navbar.module.scss"
 import Logo from "../images/logo.jpg"
 
 const Header = ({ siteTitle }) => (
-  <header className="header-home">
-    <div className="container">
+  <header className={style.navContainer}>
+    <div>
       <nav className={style.mainnav}>
-        <img className={style.headerlogo} src={Logo} alt="logo" />
+        <Link to="/" className={style.logoLink}>
+          <img className={style.headerlogo} src={Logo} alt="logo" />
+        </Link>
+
         <ul>
           <li>
             <Link

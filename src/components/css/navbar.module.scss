@@ -1,4 +1,8 @@
 @import "./variables.module";
+
+.navContainer{
+  padding-top:12px;
+}
 .headerlogo {
   width: 100px;
   margin-left: 4px;
@@ -7,7 +11,7 @@
 .mainnav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem;
+  
 }
 .mainnav ul {
   display: flex;
@@ -16,7 +20,7 @@
 .mainnav li {
   padding: 1rem 1.5rem;
 }
-.mainnav a {
+.navLink {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
@@ -24,12 +28,10 @@
   padding-bottom: 0.5rem;
   transition: border-color 0.5s;
 }
-.mainnav a:hover {
+.navLink:hover {
   border-color: #ccc;
 }
-.mainnav a.current {
-  border-color: #ffbc00;
-}
+
 
 .headerlogo {
   width: 6rem;
@@ -187,4 +189,8 @@
 .navListHam{
  flex-direction: column;
 
+}
+
+.logoLink{
+  text-decoration: none;
 }

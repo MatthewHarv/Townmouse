@@ -1,0 +1,34 @@
+@import "./variables.module";
+.background{
+  //background-color: #13242B;
+  background-color: #13252B;
+  padding-top: 100px;
+    padding-bottom: 180px;
+}
+.container{
+  text-align: center;
+max-width: 1000px;   
+margin: auto; 
+width:80%;
+
+}
+
+
+.testimonialsHeader{
+  color:white;
+  font-size: 40px;
+}
+.name{
+  color:$themecolour;
+  font-size: 28px;
+  padding-bottom: 25px;
+}
+
+.description{
+  color:white;
+    font-size: 18px;
+}
+
+.contentContainer{
+  padding-top:50px;
+}

@@ -4,13 +4,14 @@ import Seo from "../components/seo"
 import * as style from "../components/css/home.module.scss"
 import Landingimage from "../components/landingimg/landingimage"
 import { StaticImage } from "gatsby-plugin-image"
-
-import { Link } from "gatsby"
-
+import Testimonials from "../components/testimonials"
+import Address from "../components/address"
+import Button from "../components/templates/button"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <Landingimage></Landingimage>
+
     <div className={style.aboutSummary}>
       <div className={style.storyContainer}>
         <h1 className={style.leadingHeader}>Our Story</h1>
@@ -22,6 +23,7 @@ const IndexPage = () => (
           proud to be an individually owned and operated, free trade bar and
           restaurant, with the same owners from day one.
         </p>
+        <Button name="View More" link="/about/"></Button>
       </div>
       <div className={style.consumablesContainer}>
         <div className={style.foodContainer}>
@@ -34,6 +36,7 @@ const IndexPage = () => (
             Being on a working wharf we can truly say that our seafood is fresh
             off the boat.
           </p>
+          <Button name="View More" link="/about/"></Button>
         </div>
         <div className={style.imageContainer}>
           <StaticImage
@@ -53,10 +56,12 @@ const IndexPage = () => (
             with big breweries, our drinks list is 100% based on quality and is
             chosen by our passionate team.
           </p>
-          <Link to="/about/">View More</Link> <br />
+          <Button name="View More" link="/about/"></Button>
         </div>
       </div>
     </div>
+    <Testimonials></Testimonials>
+    <Address></Address>
   </Layout>
 )
 
