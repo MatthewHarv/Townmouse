@@ -1,14 +1,158 @@
 @import "./variables.module";
 
-.cover {
-  width: 100%;
-  height: calc(30vh - 95px);
-  display: flex;
+
+.header {
+  color: black;
+
+}
+
+.outContact {
+  min-height: 100vh;
+  padding-top: 1px;
+  background: url("../../images/site2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   justify-content: center;
   align-items: center;
-  padding: 3rem;
-  filter: brightness(75%);
-  position: fixed;
-  z-index: -2;
-  margin-top: -112px;
+
+
+}
+
+.contactform {
+  opacity: 0;
+  background-color: #13242B;
+  color: white;
+
+
+  width: 80%;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+
+    width: 90%;
+  }
+
+  @media (max-width: 576px) {
+
+    width: 100%;
+
+  }
+
+  max-width:1000px;
+  display: grid;
+  grid-template-columns:2fr 2fr;
+  margin:auto;
+  margin-top: 30vh;
+  min-height: 500px;
+  border-radius: 5px;
+}
+
+
+.input,
+.inputMessage {
+  border: 1px solid black;
+  display: block;
+  margin-bottom: 1rem;
+  margin: auto;
+  width: 80%;
+  height: 2.5rem;
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+  padding-left: 10px;
+
+  @media (max-width: 768px) {
+    width: 90%;
+
+  }
+}
+
+.inputMessage {
+
+  height: 8rem;
+  resize: none;
+}
+
+.input::placeholder,
+.inputMessage::placeholder {
+  color: lightgray;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+
+.inputButton:hover {
+  background-color: lightgrey;
+}
+
+.hidden {
+  display: none;
+}
+
+.labelContainer {
+  text-align: center;
+  color: $themecolour;
+  margin: auto;
+  padding-top: 40px;
+  display: block;
+}
+
+
+label {
+  width: 100%;
+
+}
+
+.contactTitle {
+  text-align: center;
+  margin-bottom: 20px;
+  color: $themecolour;
+  font-size: 3rem;
+  padding-top: 40px;
+}
+
+
+.infoDescription {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-top: 2rem;
+  padding: 10px;
+
+}
+
+.formButton {
+
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
+
+}
+
+.inputButton {
+  color: white;
+  height: 3rem;
+  width: 100px;
+  background-color: $themecolour;
+  border-radius: 12px;
+  font-size: 1.2rem;
+}
+
+.fadein {
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }

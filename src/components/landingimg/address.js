@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { BgImage } from "gbimage-bridge"
 import { getImage } from "gatsby-plugin-image"
-import * as style from "../css/address.module.scss"
+import * as style from "../css/theaddress.module.scss"
 
 export default function Cover() {
   const { placeholderImage123 } = useStaticQuery(
@@ -26,7 +26,7 @@ export default function Cover() {
     <div>
       <BgImage image={pluginImage} className={style.cover}>
         <div>
-          <h1 className={style.landingHeader}>Come visit us</h1>
+          <h1 className={style.landingHeader}>Come Visit Us</h1>
           <p className={style.landingDescription}>
             191 King Street, Pukekohe 2120
           </p>

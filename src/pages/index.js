@@ -23,7 +23,7 @@ const IndexPage = () => (
           proud to be an individually owned and operated, free trade bar and
           restaurant, with the same owners from day one.
         </p>
-        <Button name="View More" link="/about/"></Button>
+        <Button name="View More" link="/about"></Button>
       </div>
       <div className={style.consumablesContainer}>
         <div className={style.foodContainer}>
@@ -36,14 +36,14 @@ const IndexPage = () => (
             Being on a working wharf we can truly say that our seafood is fresh
             off the boat.
           </p>
-          <Button name="View More" link="/about/"></Button>
+          <Button name="View More" link="/menu"></Button>
         </div>
         <div className={style.imageContainer}>
           <StaticImage
             className={style.coffee}
             src="../images/coffee.jpg"
             alt="Coffee"
-            formats={["AUTO", "WEBP"]}
+            formats={["AUTO", "AVIF"]}
           />
         </div>
         <div className={style.drinkContainer}>
@@ -56,7 +56,7 @@ const IndexPage = () => (
             with big breweries, our drinks list is 100% based on quality and is
             chosen by our passionate team.
           </p>
-          <Button name="View More" link="/about/"></Button>
+          <Button name="View More" link="/menu"></Button>
         </div>
       </div>
     </div>

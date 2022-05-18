@@ -1,10 +1,11 @@
 import React, { Component } from "react"
-import Addressimg from "../components/landingimg/addressimage"
+import Landingcover from "../components/landingimg/address"
+
 export default class address extends Component {
   render() {
     return (
       <div>
-        <Addressimg></Addressimg>
+        <Landingcover></Landingcover>
       </div>
     )
   }

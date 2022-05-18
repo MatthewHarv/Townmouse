@@ -1,0 +1,60 @@
+@import "./variables.module";
+.container{
+  padding-top:30px;
+    padding-bottom: 30px;
+  background-color: #080D0E;
+  display: flex;
+  justify-content: space-evenly;
+  @media (max-width: 768px) {
+    display:block
+    }
+  
+   
+}
+.title{
+  color:red;
+}
+
+.footerlogo{
+  width:100px;
+}
+
+.footerTitle{
+  color:$themecolour;
+  font-size: 2rem;
+  text-align: center;
+  @media (max-width: 768px) {
+      padding-top: 30px;
+    }
+
+}
+
+.footerContent{
+  color:white;
+  text-align: center;
+  font-size: 1.1rem;
+   
+}
+.socials{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fblogo{
+  text-align: center;
+  background-color: white;
+  color:#3C5998;
+  font-size: 3rem;
+  text-align: center;
+  margin: auto;
+      border-radius: 30px;
+}
+
+.fbinsta {
+  color: #B73284;
+  font-size: 3rem;
+  text-align: center;
+    background-color: white;
+      border-radius: 30px;
+      margin: auto;
+}

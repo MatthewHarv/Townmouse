@@ -12,3 +12,41 @@
   z-index: -2;
   margin-top: -112px;
 }
+
+
+.container{
+  padding-top:100px;
+  padding-bottom: 100px;
+  background-color: #13242B;
+}
+
+.title{
+  font-size: 3rem;
+  text-align: center;
+  color:$themecolour;
+  margin-bottom: 40px;
+}
+
+.imgContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  max-width: 1000px;
+  margin: auto;
+  @media (max-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+  
+    }
+  
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+}
+
+.img{
+  padding:10px;
+ 
+  margin: auto;
+ 
+ 
+}
