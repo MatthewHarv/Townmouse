@@ -1,8 +1,7 @@
 import React, { Component } from "react"
 import * as style from "../components/css/footer.module.scss"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
+
+import { FaFacebook, FaInstagram } from "react-icons/fa"
 
 export default class footer extends Component {
   render() {

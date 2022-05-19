@@ -4,9 +4,10 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Town Mouse`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `Amazing Allpress coffee, great a la carte menu, fresh and vibrant
+            cabinet food.`,
+    author: `@matthewharvey`,
+    siteUrl: `https://townmouse.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,7 +34,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
       },
     },
 

@@ -143,3 +143,43 @@ label {
     opacity: 1;
   }
 }
+
+.title {
+  padding-top: 50px;
+  text-align: center;
+  font-size: $title;
+  font-family: Poppinsbold;
+  margin: auto;
+}
+
+.contactform2 {
+  opacity: 1;
+  background-color: #13242b;
+  color: white;
+
+  width: 80%;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+
+    width: 90%;
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+
+  max-width: 1000px;
+
+  margin: auto;
+  margin-top: 30vh;
+  min-height: 500px;
+  border-radius: 5px;
+}
+
+.description {
+  padding-top: 50px;
+  text-align: center;
+  font-size: $text;
+  font-family: Poppinsreg;
+}
